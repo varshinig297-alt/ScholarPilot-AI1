@@ -1,0 +1,38 @@
+﻿# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+
+# Logs
+logs/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Uploaded study documents and generated reports
+data/*
+!data/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Local backup files
+*.backup
+*.before_verification_ui_backup
+*_backup.py
+reports
+
+# Development backups and accidental files
+*.before_*
+*.pre_*_backup
+*_wrong_paste.py

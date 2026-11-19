@@ -1,0 +1,33 @@
+# User interface
+streamlit
+
+# Environment configuration
+python-dotenv
+
+# Document processing
+pymupdf
+
+# Generative AI and LLM integration
+langchain
+langchain-google-genai
+
+# Agentic AI orchestration
+langgraph
+
+# Data validation
+pydantic
+
+# Machine learning and NLP
+scikit-learn
+numpy
+
+# Data analytics and visualization
+pandas
+plotly
+
+# PDF report generation
+reportlab
+
+# Testing
+pytest
+pytest-cov
