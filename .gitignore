@@ -36,3 +36,33 @@ reports
 *.before_*
 *.pre_*_backup
 *_wrong_paste.py
+# Frontend dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment files
+.env.*
+!.env.example
+!.env.*.example
+
+# Coverage and generated files
+coverage/
+*.log
+.DS_Store
+
+# Exclude incomplete code and local dependency snapshots
+*.incomplete
+requirements-installed.txt
+
+# Exclude frontend recovery backups
+frontend/recovery-backup/
+frontend/src/*-backup.ts
+frontend/src/*-backup.tsx
+frontend/src/*-before-*.tsx
+
+# API service backup
+frontend/src/services/*-backup.ts
